@@ -45,11 +45,12 @@ float64 max_view_angle
 float64 max_range_angle
 
 # The axis that is assumed to indicate the direction of view for the sensor
-# X = 2, Y = 1, Z = 0
-uint8 SENSOR_Z=0
-uint8 SENSOR_Y=1
-uint8 SENSOR_X=2
+# X  =  2, Y  =  1, Z  =  0
 uint8 sensor_view_direction
+uint8 SENSOR_Z = 0
+uint8 SENSOR_Y = 1
+uint8 SENSOR_X = 2
+
 
 # A weighting factor for this constraint (denotes relative importance to other constraints. Closer to zero means less important)
 float64 weight

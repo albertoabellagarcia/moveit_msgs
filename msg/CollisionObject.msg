@@ -39,18 +39,19 @@ geometry_msgs/Pose[] plane_poses
 string[] subframe_names
 geometry_msgs/Pose[] subframe_poses
 
+# Operation to be performed
+byte operation
+
 # Adds the object to the planning scene. If the object previously existed, it is replaced.
-byte ADD=0
+byte ADD = 0
 
 # Removes the object from the environment entirely (everything that matches the specified id)
-byte REMOVE=1
+byte REMOVE = 1
 
 # Append to an object that already exists in the planning scene. If the object does not exist, it is added.
-byte APPEND=2
+byte APPEND = 2
 
 # If an object already exists in the scene, new poses can be sent (the geometry arrays must be left empty)
 # if solely moving the object is desired
-byte MOVE=3
+byte MOVE = 3
 
-# Operation to be performed
-byte operation
