@@ -22,7 +22,7 @@ uint32 body_type_1
 string contact_body_2
 uint32 body_type_2
 
-uit32 type_body
+uint32 type_body
 uint32 ROBOT_LINK = 0
 uint32 WORLD_OBJECT = 1
 uint32 ROBOT_ATTACHED = 2
